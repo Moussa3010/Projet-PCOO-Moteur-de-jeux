@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.6" orientation="orthogonal" renderorder="right-down" width="100" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="27">
+ <tileset firstgid="1" name="tileset_mario" tilewidth="32" tileheight="32" tilecount="5" columns="5">
+  <image source="../textures/tileset_mario.png" width="160" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="nom" value="Sol_Brique"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="nom" value="Bloc_Brique"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="nom" value="Bloc_Mystere"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="nom" value="Plateforme"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Sol" width="100" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,4,3,2,2,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,2,3,4,4,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,4,3,4,4,0,4,4,4,4,0,0,3,0,0,0,0,0,0,0,0,4,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,2,4,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,4,4,0,0,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,4,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,4,0,0,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="2" name="Joueur">
+  <object id="1" name="joueur" type="Joueur" x="64" y="384" width="32" height="48">
+   <properties>
+    <property name="forceSaut" type="float" value="650"/>
+    <property name="vitesse" type="float" value="250"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Ennemis">
+  <object id="2" name="ennemi1" type="EnnemiTerrestre" x="320" y="384" width="32" height="32">
+   <properties>
+    <property name="comportement" value="patrouille"/>
+    <property name="distancePatrouille" type="float" value="100"/>
+    <property name="vitesse" type="float" value="50"/>
+   </properties>
+  </object>
+  <object id="3" name="ennemi2" type="EnnemiVolant" x="480" y="256" width="32" height="32">
+   <properties>
+    <property name="comportement" value="poursuite"/>
+    <property name="rayonDetection" type="float" value="150"/>
+    <property name="vitesse" type="float" value="80"/>
+   </properties>
+  </object>
+  <object id="11" name="ennemi3" type="EnnemiTerrestre" x="960" y="384" width="32" height="32">
+   <properties>
+    <property name="comportement" value="patrouille"/>
+    <property name="distancePatrouille" type="float" value="150"/>
+    <property name="vitesse" type="float" value="60"/>
+   </properties>
+  </object>
+  <object id="12" name="ennemi4" type="EnnemiTerrestre" x="1600" y="384" width="32" height="32">
+   <properties>
+    <property name="comportement" value="patrouille"/>
+    <property name="distancePatrouille" type="float" value="120"/>
+    <property name="vitesse" type="float" value="70"/>
+   </properties>
+  </object>
+  <object id="15" name="ennemi4" type="EnnemiTerrestre" x="1808.42" y="141.198" width="32" height="32">
+   <properties>
+    <property name="comportement" value="patrouille"/>
+    <property name="distancePatrouille" type="float" value="120"/>
+    <property name="vitesse" type="float" value="70"/>
+   </properties>
+  </object>
+  <object id="14" name="ennemi4" type="EnnemiTerrestre" x="1503.31" y="235.74" width="32" height="32">
+   <properties>
+    <property name="comportement" value="patrouille"/>
+    <property name="distancePatrouille" type="float" value="120"/>
+    <property name="vitesse" type="float" value="70"/>
+   </properties>
+  </object>
+  <object id="13" name="ennemi4" type="EnnemiTerrestre" x="1645.12" y="151.942" width="32" height="32">
+   <properties>
+    <property name="comportement" value="patrouille"/>
+    <property name="distancePatrouille" type="float" value="120"/>
+    <property name="vitesse" type="float" value="70"/>
+   </properties>
+  </object>
+  <object id="10" name="ennemi4" type="EnnemiTerrestre" x="1979.34" y="384" width="32" height="32">
+   <properties>
+    <property name="comportement" value="patrouille"/>
+    <property name="distancePatrouille" type="float" value="120"/>
+    <property name="vitesse" type="float" value="70"/>
+   </properties>
+  </object>
+  <object id="11" name="ennemi4" type="EnnemiTerrestre" x="2171.86" y="376.375" width="32" height="32">
+   <properties>
+    <property name="comportement" value="patrouille"/>
+    <property name="distancePatrouille" type="float" value="120"/>
+    <property name="vitesse" type="float" value="70"/>
+   </properties>
+  </object>
+  <object id="12" name="ennemi4" type="EnnemiTerrestre" x="2461.61" y="382.094" width="32" height="32">
+   <properties>
+    <property name="comportement" value="patrouille"/>
+    <property name="distancePatrouille" type="float" value="120"/>
+    <property name="vitesse" type="float" value="70"/>
+   </properties>
+  </object>
+  <object id="13" name="ennemi5" type="EnnemiVolant" x="2240" y="256" width="32" height="32">
+   <properties>
+    <property name="comportement" value="poursuite"/>
+    <property name="rayonDetection" type="float" value="200"/>
+    <property name="vitesse" type="float" value="90"/>
+   </properties>
+  </object>
+  <object id="14" name="ennemi6" type="EnnemiTerrestre" x="2880" y="384" width="32" height="32">
+   <properties>
+    <property name="comportement" value="patrouille"/>
+    <property name="distancePatrouille" type="float" value="100"/>
+    <property name="vitesse" type="float" value="55"/>
+   </properties>
+  </object>
+  <object id="24" x="2477.44" y="109.583"/>
+  <object id="25" x="618.823" y="395.359" width="30.0817" height="25.7843"/>
+  <object id="26" x="691.878" y="414.697"/>
+ </objectgroup>
+ <objectgroup id="4" name="Objets">
+  <object id="4" name="piece1" type="ObjetCollectable" x="352" y="160" width="24" height="24">
+   <properties>
+    <property name="points" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="5" name="piece2" type="ObjetCollectable" x="384" y="160" width="24" height="24">
+   <properties>
+    <property name="points" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="6" name="piece3" type="ObjetCollectable" x="608" y="224" width="24" height="24">
+   <properties>
+    <property name="points" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="15" name="piece4" type="ObjetCollectable" x="992" y="160" width="24" height="24">
+   <properties>
+    <property name="points" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="16" name="piece5" type="ObjetCollectable" x="1024" y="160" width="24" height="24">
+   <properties>
+    <property name="points" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="17" name="piece6" type="ObjetCollectable" x="1632" y="160" width="24" height="24">
+   <properties>
+    <property name="points" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="18" name="piece7" type="ObjetCollectable" x="1664" y="160" width="24" height="24">
+   <properties>
+    <property name="points" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="19" name="piece8" type="ObjetCollectable" x="2272" y="160" width="24" height="24">
+   <properties>
+    <property name="points" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="20" name="piece9" type="ObjetCollectable" x="2304" y="160" width="24" height="24">
+   <properties>
+    <property name="points" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="21" name="champignon1" type="ObjetCollectable" x="1280" y="259" width="24" height="28.2974">
+   <properties>
+    <property name="points" type="int" value="50"/>
+   </properties>
+  </object>
+  <object id="16" name="champignon1" type="ObjetCollectable" x="1127.44" y="351.394" width="24" height="28.2974">
+   <properties>
+    <property name="points" type="int" value="50"/>
+   </properties>
+  </object>
+  <object id="17" name="champignon1" type="ObjetCollectable" x="484.985" y="349.245" width="24" height="28.2974">
+   <properties>
+    <property name="points" type="int" value="50"/>
+   </properties>
+  </object>
+  <object id="19" name="champignon1" type="ObjetCollectable" x="841.667" y="138.673" width="24" height="28.2974">
+   <properties>
+    <property name="points" type="int" value="50"/>
+   </properties>
+  </object>
+  <object id="18" name="champignon1" type="ObjetCollectable" x="192.763" y="252.554" width="24" height="28.2974">
+   <properties>
+    <property name="points" type="int" value="50"/>
+   </properties>
+  </object>
+  <object id="22" name="champignon2" type="ObjetCollectable" x="2560" y="256" width="24" height="24">
+   <properties>
+    <property name="points" type="int" value="50"/>
+   </properties>
+  </object>
+  <object id="100" type="PIECE" x="200" y="350" width="24" height="24"/>
+  <object id="101" type="PIECE" x="250" y="350" width="24" height="24"/>
+  <object id="102" type="PIECE" x="300" y="350" width="24" height="24"/>
+  <object id="103" type="PIECE" x="350" y="350" width="24" height="24"/>
+  <object id="104" type="PIECE" x="400" y="350" width="24" height="24"/>
+  <object id="105" type="PIECE" x="550" y="320" width="24" height="24"/>
+  <object id="106" type="PIECE" x="600" y="290" width="24" height="24"/>
+  <object id="107" type="PIECE" x="650" y="260" width="24" height="24"/>
+  <object id="108" type="PIECE" x="700" y="230" width="24" height="24"/>
+  <object id="109" type="PIECE" x="850" y="280" width="24" height="24"/>
+  <object id="110" type="PIECE" x="900" y="250" width="24" height="24"/>
+  <object id="111" type="PIECE" x="950" y="230" width="24" height="24"/>
+  <object id="112" type="PIECE" x="1000" y="250" width="24" height="24"/>
+  <object id="113" type="PIECE" x="1050" y="280" width="24" height="24"/>
+  <object id="114" type="PIECE" x="1200" y="300" width="24" height="24"/>
+  <object id="115" type="PIECE" x="1250" y="300" width="24" height="24"/>
+  <object id="116" type="PIECE" x="1300" y="300" width="24" height="24"/>
+  <object id="117" type="PIECE" x="1350" y="300" width="24" height="24"/>
+  <object id="118" type="PIECE" x="450" y="200" width="24" height="24"/>
+  <object id="119" type="PIECE" x="800" y="400" width="24" height="24"/>
+ </objectgroup>
+ <objectgroup id="5" name="Obstacles">
+  <object id="7" name="sol" x="3.12639e-13" y="449.812" width="3198.09" height="32"/>
+  <object id="8" name="plateforme1" x="160" y="288" width="96" height="32"/>
+  <object id="9" name="plateforme2" x="320" y="192" width="128" height="32"/>
+  <object id="10" name="plateforme3" x="608" y="224" width="96" height="32"/>
+  <object id="20" name="plateforme3" x="575.77" y="92.93" width="96" height="32"/>
+  <object id="23" name="plateforme4" x="864" y="288" width="96" height="32"/>
+  <object id="9" name="plateforme4" x="801.095" y="227.001" width="96" height="32"/>
+  <object id="24" name="plateforme5" x="960" y="192" width="128" height="32"/>
+  <object id="25" name="plateforme6" x="1278.5" y="224" width="96" height="32"/>
+  <object id="26" name="plateforme7" x="1474" y="288" width="128" height="32"/>
+  <object id="8" name="plateforme7" x="1594.09" y="194.596" width="128" height="32"/>
+  <object id="28" name="plateforme9" x="1760" y="192" width="128" height="32"/>
+  <object id="29" name="plateforme10" x="1920" y="224" width="96" height="32"/>
+  <object id="30" name="plateforme11" x="2139.09" y="288" width="99.4068" height="32"/>
+  <object id="31" name="plateforme12" x="2240" y="192" width="128" height="32"/>
+  <object id="32" name="plateforme13" x="2560" y="224" width="96" height="32"/>
+  <object id="33" name="plateforme14" x="2779.09" y="289.906" width="128" height="32"/>
+  <object id="34" name="plateforme15" x="2880" y="192" width="96" height="32"/>
+  <object id="35" name="plateforme_finale" x="2651.09" y="127.079" width="160" height="32"/>
+  <object id="21" x="2058.44" y="62.312" width="232.058" height="30.0817"/>
+ </objectgroup>
+ <objectgroup id="6" name="Drapeau">
+  <object id="1000" x="3133.21" y="289.339" width="32" height="160">
+   <properties>
+    <property name="hauteur" type="float" value="160"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="PowerUps">
+  <object id="2001" x="300" y="320" width="32" height="32">
+   <properties>
+    <property name="type" value="CHAMPIGNON_MAGIQUE"/>
+   </properties>
+  </object>
+  <object id="2002" x="800" y="256" width="32" height="32">
+   <properties>
+    <property name="type" value="CHAMPIGNON_MAGIQUE"/>
+   </properties>
+  </object>
+  <object id="2003" x="1500" y="288" width="32" height="32">
+   <properties>
+    <property name="type" value="FLEUR_DE_FEU"/>
+   </properties>
+  </object>
+  <object id="2004" x="2200" y="256" width="32" height="32">
+   <properties>
+    <property name="type" value="CHAMPIGNON_1UP"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

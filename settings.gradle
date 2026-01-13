@@ -1,0 +1,5 @@
+// Fichier de configuration des modules Gradle
+
+include 'desktop', 'core'
+
+

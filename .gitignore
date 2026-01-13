@@ -1,0 +1,83 @@
+# ===========================================
+# Moteur de Jeu de Plateforme 2D - .gitignore
+# ===========================================
+
+# Fichiers compilés Java
+*.class
+bin/
+build/
+out/
+target/
+
+# Fichiers de build Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# IDE - Eclipse
+.settings/
+.project
+.classpath
+.metadata/
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# IDE - NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+
+# OS - macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# OS - Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# OS - Linux
+*~
+.directory
+
+# Sauvegardes du jeu
+saves/*.dat
+saves/*.sav
+!saves/.gitkeep
+
+# Fichiers temporaires
+temp/
+tmp/
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# LibGDX spécifique
+*-desktop.jar
+*.gwt/
+
+# Python (pour scripts de génération)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Fichiers de backup
+*.orig
+*.rej

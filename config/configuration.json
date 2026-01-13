@@ -1,0 +1,11 @@
+{
+  "titre": "Jeu de Plateforme - Moteur 2D",
+  "largeurFenetre": 800,
+  "hauteurFenetre": 600,
+  "pleinEcran": false,
+  "niveaux": [
+    "assets/cartes/niveau1.tmx"
+  ]
+}
+
+
