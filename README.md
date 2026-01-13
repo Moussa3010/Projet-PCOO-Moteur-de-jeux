@@ -3,9 +3,7 @@
 **Projet académique - Licence 3 MIAGE**  
 Moteur de jeu 2D extensible développé en Java avec LibGDX, permettant la création de niveaux via Tiled sans modifier le code.
 
----
-
-## 🎮 Fonctionnalités
+## Fonctionnalités
 
 **Gameplay**
 - Joueur avec 3 transformations (PETIT → GRAND → FEU)
@@ -24,7 +22,7 @@ Moteur de jeu 2D extensible développé en Java avec LibGDX, permettant la créa
 
 ---
 
-## 🚀 Installation et Lancement
+## Installation et Lancement
 
 ### Prérequis
 - Java JDK 17+
